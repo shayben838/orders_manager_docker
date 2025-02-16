@@ -30,12 +30,12 @@ To get started, clone the necessary repositories:
 
 
 - git clone git@github.com:shayben838/orders_manager_docker.git
-  - cd orders_manager_docker
-    - git clone git@github.com:shayben838/orders_manager_BackEnd.git
-    - git clone git@github.com:shayben838/orders_manager_FrontEnd.git
+- git clone git@github.com:shayben838/orders_manager_BackEnd.git
+- git clone git@github.com:shayben838/orders_manager_FrontEnd.git
 ### Run the Application Locally
 
 1. Navigate to the `orders_manager_docker` directory:
+cd orders_manager_docker
 
 ### Run Docker Compose to build and start the containers:
 ```docker-compose up --build```
