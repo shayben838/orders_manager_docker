@@ -15,9 +15,9 @@ Before you begin, ensure you have the following installed:
 - [Docker Compose](https://docs.docker.com/compose/install/)
 
 # Getting Started
-- `git clone git@github.com:shayben838/orders_manager_docker.git`
-- `git clone git@github.com:shayben838/orders_manager_BackEnd.git`
-- `git clone git@github.com:shayben838/orders_manager_FrontEnd.git`
+- `git clone https://github.com/shayben838/orders_manager_docker.git`
+- `git clone https://github.com/shayben838/orders_manager_BackEnd.git`
+- `git clone https://github.com/shayben838/orders_manager_FrontEnd.git`
 - `cd orders_manager_docker`
 - `docker-compose up --build`
 
