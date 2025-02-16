@@ -100,7 +100,7 @@ Each customer can customize their settings through a config file, including:
 - **Bug Fixes**  
   Ongoing updates to address issues and improve system stability.
 
-- ## Tests  
+- **Tests**
   In future releases, we will ensure comprehensive test coverage for all new features and updates.
   This will include unit tests, integration tests, and end-to-end tests to maintain code quality and system reliability.
 
