@@ -1,0 +1,26 @@
+version: '3.8'
+
+services:
+  frontend:
+    build:
+      context: ./orders-manager
+    ports:
+      - "3001:80"
+    depends_on:
+      - backend
+
+  backend:
+    build:
+      context: ./orders_manager_api
+    ports:
+      - "3000:3000"
+    volumes:
+      - ./orders_manager_api:/app
+    environment:
+      - RAILS_ENV=development
+    depends_on:
+      - db
+
+  db:
+    image: nouchka/sqlite3 # You might not need this if SQLite is in the Rails container
+
