@@ -17,7 +17,7 @@ Before you begin, ensure you have the following installed:
 ## Folder Structure
 
 Here is the expected folder structure for this project:
-- **`orders_manager-dev/`**: The root directory containing the Docker setup.
+- **`orders_manager_docker/`**: The root directory containing the Docker setup.
   - **`docker-compose.yml`**: The configuration file for Docker Compose, defining how the frontend, backend, and database containers are built and run together.
   - **`orders_manager_api/`**: The backend repository
   - **`orders-manager/`**: The frontend repository
