@@ -95,5 +95,19 @@ Each customer can customize their settings through a config file, including:
 - The status of an order can be updated at any time, with changes automatically reflected in the system.
 
 
+## Future Releases  
+
+- **Bug Fixes**  
+  Ongoing updates to address issues and improve system stability.
+
+- **Code Refactoring**  
+  The code will be optimized and restructured for better performance and maintainability.
+
+- **Items Records for Each Order**  
+  Enhanced functionality to manage and view item-level details within each order.
+
+- **And Many More!**  
+  Exciting new features and improvements coming soon!
+
 
 
