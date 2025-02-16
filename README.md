@@ -28,10 +28,11 @@ Here is the expected folder structure for this project:
 
 To get started, clone the necessary repositories:
 
-- [Orders Manager Docker Setup](https://github.com/shayben838/orders_manager_docker)
-- [Backend Repository (Rails API)](https://github.com/shayben838/orders_manager_BackEnd)
-- [Frontend Repository (React app)](https://github.com/shayben838/orders_manager_FrontEnd)
 
+- git clone git@github.com:shayben838/orders_manager_docker.git
+  - cd orders_manager_docker
+    - git clone git@github.com:shayben838/orders_manager_BackEnd.git
+    - git clone git@github.com:shayben838/orders_manager_FrontEnd.git
 ### Run the Application Locally
 
 1. Navigate to the `orders_manager_docker` directory:
