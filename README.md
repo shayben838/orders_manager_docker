@@ -40,7 +40,7 @@ To get started, clone the necessary repositories:
    cd orders_manager-dev
 
 ### Run Docker Compose to build and start the containers:
-docker-compose up --build
+```docker-compose up --build```
 
 This will build the Docker images for the frontend and backend, set up the database (SQLite), and start the backend on port 3000 and the frontend on port 3001.
 
