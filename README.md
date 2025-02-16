@@ -69,30 +69,30 @@ Run the following commands:
 
 # Features
 
-### Table Sorting  
-The orders table supports sorting by any column, allowing you to quickly organize the data based on your preferences.
+- **Table Sorting**  
+  The orders table supports sorting by any column, allowing you to quickly organize the data based on your preferences.
 
-### Table Filtering (by Status)  
-You can filter the list of orders by their status, making it easy to view orders in a specific stage (e.g., Pending, Completed).
+- **Table Filtering (by Status)**  
+  You can filter the list of orders by their status, making it easy to view orders in a specific stage (e.g., Pending, Completed).
 
-### Data Pooling  
-New orders are automatically updated in the UI in real time.  
-- You can create a new order in Window 1, and the list of items will be updated automatically in Window 2.
+- **Data Pooling**  
+  New orders are automatically updated in the UI in real time.  
+  - You can create a new order in Window 1, and the list of items will be updated automatically in Window 2.
 
-### Config File  
-Each customer can customize their settings through a config file, including:  
-- Adjusting the pooling time (frequency of updates)  
-- Setting the colors for each order status for better visual distinction
+- **Config File**  
+  Each customer can customize their settings through a config file, including:  
+    - Adjusting the pooling time (frequency of updates)  
+    - Setting the colors for each order status for better visual distinction
 
-### Versions & Soft Delete  
-- Orders are never deleted. Every update to an order is saved and tracked, allowing you to view past versions of an order.  
-- Soft delete ensures that when an order is removed, it can still be restored if needed.
+- **Versions & Soft Delete**  
+  - Orders are never deleted. Every update to an order is saved and tracked, allowing you to view past versions of an order.  
+  - Soft delete ensures that when an order is removed, it can still be restored if needed.
 
-### Creating Orders  
-- Orders can be created via a user-friendly interface, with all necessary details captured in a simple form.
+- **Creating Orders**  
+  Orders can be created via a user-friendly interface, with all necessary details captured in a simple form.
 
-### Update Order Status  
-- The status of an order can be updated at any time, with changes automatically reflected in the system.
+- **Update Order Status**
+  The status of an order can be updated at any time, with changes automatically reflected in the system.
 
 
 # Future Releases  
@@ -103,7 +103,6 @@ Each customer can customize their settings through a config file, including:
 - **Tests**
   In future releases, we will ensure comprehensive test coverage for all new features and updates.
   This will include unit tests, integration tests, and end-to-end tests to maintain code quality and system reliability.
-
 
 - **Code Refactoring**  
   The code will be optimized and restructured for better performance and maintainability.
