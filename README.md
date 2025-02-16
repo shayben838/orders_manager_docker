@@ -110,9 +110,13 @@ Each customer can customize their settings through a config file, including:
 
 - **Items Records for Each Order**  
   Enhanced functionality to manage and view item-level details within each order.
+  
+- **Responsive Design**  
+  A fully responsive design will be implemented to ensure optimal user experience across all devices.
+
+- **Pagination**  
+  Efficient pagination functionality will be added to improve navigation and data presentation across large datasets.
 
 - **And Many More!**  
   Exciting new features and improvements coming soon!
-
-
 
