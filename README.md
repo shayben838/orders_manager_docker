@@ -34,8 +34,7 @@ To get started, clone the necessary repositories:
 
 ### Run the Application Locally
 
-1. Navigate to the `orders_manager-dev` directory:
-   cd orders_manager-dev
+1. Navigate to the `orders_manager_docker` directory:
 
 ### Run Docker Compose to build and start the containers:
 ```docker-compose up --build```
