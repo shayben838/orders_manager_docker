@@ -1,3 +1,8 @@
+![image](https://github.com/user-attachments/assets/6a4ab7b8-1a7c-45b3-89d2-1f7c8e65ed69)
+
+
+
+
 # Orders Manager - Application Setup
 
 This project provides a local development environment for the Orders Manager application, which consists of two main parts:
