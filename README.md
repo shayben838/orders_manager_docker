@@ -35,7 +35,7 @@ This will build the Docker images for the frontend and backend, set up the datab
 - Backend: Open http://localhost:3000 in your browser to access the Rails API.
 
 
-## Docker Setup  
+# Docker Setup  
 The Docker setup has been tested on macOS. If you're using Windows, you may need to make some adjustments.  
 
 ### Running the Application Without Docker  
@@ -67,7 +67,7 @@ Run the following commands:
   npm start
 
 
-## Features
+# Features
 
 ### Table Sorting  
 The orders table supports sorting by any column, allowing you to quickly organize the data based on your preferences.
@@ -95,10 +95,15 @@ Each customer can customize their settings through a config file, including:
 - The status of an order can be updated at any time, with changes automatically reflected in the system.
 
 
-## Future Releases  
+# Future Releases  
 
 - **Bug Fixes**  
   Ongoing updates to address issues and improve system stability.
+
+- ## Tests  
+  In future releases, we will ensure comprehensive test coverage for all new features and updates.
+  This will include unit tests, integration tests, and end-to-end tests to maintain code quality and system reliability.
+
 
 - **Code Refactoring**  
   The code will be optimized and restructured for better performance and maintainability.
