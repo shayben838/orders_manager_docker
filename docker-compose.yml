@@ -3,7 +3,7 @@ version: '3.8'
 services:
   frontend:
     build:
-      context: ./orders-manager
+      context: ./orders_manager_FrontEnd
     ports:
       - "3001:80"
     depends_on:
@@ -11,7 +11,7 @@ services:
 
   backend:
     build:
-      context: ./orders_manager_api
+      context: ./orders_manager_BackEnd
     ports:
       - "3000:3000"
     volumes:
