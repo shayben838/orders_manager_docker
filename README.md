@@ -27,3 +27,36 @@ This will build the Docker images for the frontend and backend, set up the datab
 ### Access the Application
 - Frontend: Open http://localhost:3001 in your browser to view the React app.
 - Backend: Open http://localhost:3000 in your browser to access the Rails API.
+
+
+## Docker Setup  
+The Docker setup has been tested on macOS. If you're using Windows, you may need to make some adjustments.  
+
+### Running the Application Without Docker  
+
+#### Backend (Rails)  
+*Note: If you're on Windows, you may need to install Ruby first.*  
+
+Run the following commands:  
+
+- **Install dependencies:**  
+  bundle install
+
+- **Set up the database schema::**  
+  rails db:migrate
+
+- **Seed the database with sample data (300 orders):**  
+  rails db:seed
+
+- **Start the server:**  
+  rails s
+
+#### Frontend (React)
+Run the following commands:  
+
+- **Install dependencies:**  
+  npm install
+
+- **Start the development server:**  
+  npm start
+
