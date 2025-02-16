@@ -19,10 +19,8 @@ Before you begin, ensure you have the following installed:
 Here is the expected folder structure for this project:
 - **`orders_manager-dev/`**: The root directory containing the Docker setup.
   - **`docker-compose.yml`**: The configuration file for Docker Compose, defining how the frontend, backend, and database containers are built and run together.
-  - **`orders_manager_api/`**: The backend repository, which is a Rails app.
-    - Contains all the necessary Rails code, configuration files, and database files.
-  - **`orders-manager/`**: The frontend repository, which is a React app.
-    - Contains all the React components, public assets, and the necessary configurations.
+  - **`orders_manager_api/`**: The backend repository
+  - **`orders-manager/`**: The frontend repository
 
 ## Getting Started
 
