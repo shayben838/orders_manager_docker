@@ -1,0 +1,32 @@
+# Orders Manager - Docker Setup
+
+This project provides a local development environment for the Orders Manager application, which consists of two main parts:
+
+- **Backend**: A Rails API running with SQLite.
+- **Frontend**: A React application serving the UI.
+
+Both the frontend and backend are set up to run in Docker containers, with the necessary configuration to run the app locally using Docker Compose.
+
+## Prerequisites
+
+Before you begin, ensure you have the following installed:
+
+- [Docker](https://www.docker.com/get-started)
+- [Docker Compose](https://docs.docker.com/compose/install/)
+
+## Folder Structure
+
+Here is the expected folder structure for this project:
+- **`orders_manager-dev/`**: The root directory containing the Docker setup.
+  - **`docker-compose.yml`**: The configuration file for Docker Compose, defining how the frontend, backend, and database containers are built and run together.
+- **`orders_manager_api/`**: The backend repository, which is a Rails app.
+  - Contains all the necessary Rails code, configuration files, and database files.
+- **`orders-manager/`**: The frontend repository, which is a React app.
+  - Contains all the React components, public assets, and the necessary configurations.
+
+## Getting Started
+
+### Clone the Repositories
+https://github.com/shayben838/orders_manager_docker
+https://github.com/shayben838/orders_manager_BackEnd
+https://github.com/shayben838/orders_manager_FrontEnd
